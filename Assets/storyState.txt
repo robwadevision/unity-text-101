@@ -1,0 +1,4 @@
+You awake in your bed to the sound of shouts, fire engines and...a raging fire. Your apartment building is ablaze! You leap out of bed and consider your options. You can either rush to the door, or take your chances out of the third story window.
+
+1: Approach the door.
+2: Open the window.

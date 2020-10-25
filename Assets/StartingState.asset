@@ -21,3 +21,6 @@ MonoBehaviour:
     1: Approach the door.
 
     2: Open the window.'
+  nextStates:
+  - {fileID: 11400000, guid: 405b566175a674228975fcd20be0bb25, type: 2}
+  - {fileID: 11400000, guid: 3ed0f89cd4c0b484e98033710a723bf4, type: 2}

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c8fda7606d449529b2b1bf039add33, type: 3}
   m_Name: StartingState
   m_EditorClassIdentifier: 
-  storyText: 'You awake in your bed to the sound of shouts, fire engines and...a
-    raging fire. Your apartment building is ablaze! You leap out of bed and consider
+  storyText: 'You awake in your bed to the sound of shouts, sirens and...the smell
+    of smoke. Your apartment building is ablaze! You leap out of bed and consider
     your options. You can either rush to the door, or take your chances out of the
     third story window.
 

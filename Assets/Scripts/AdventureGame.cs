@@ -40,7 +40,7 @@ public class AdventureGame : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            state = startingState;
+            Application.Quit();
         }
         textComponent.text = state.GetStateStory();
     }

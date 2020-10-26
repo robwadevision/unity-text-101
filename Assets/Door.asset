@@ -13,3 +13,6 @@ MonoBehaviour:
   m_Name: Door
   m_EditorClassIdentifier: 
   storyText: You go up towards the door.
+  nextStates:
+  - {fileID: 11400000, guid: 882c0fd1413e642d7b67861fbba38769, type: 2}
+  - {fileID: 11400000, guid: 3ed0f89cd4c0b484e98033710a723bf4, type: 2}

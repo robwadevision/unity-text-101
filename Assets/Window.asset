@@ -13,3 +13,6 @@ MonoBehaviour:
   m_Name: Window
   m_EditorClassIdentifier: 
   storyText: You run to the window and lift it open.
+  nextStates:
+  - {fileID: 11400000, guid: 882c0fd1413e642d7b67861fbba38769, type: 2}
+  - {fileID: 11400000, guid: 405b566175a674228975fcd20be0bb25, type: 2}

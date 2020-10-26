@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c8fda7606d449529b2b1bf039add33, type: 3}
+  m_Name: A2 Window
+  m_EditorClassIdentifier: 
+  storyText: 'You open the window. Your apartment faces onto the street, and you
+    can see people have formed a small crowd over the road looking at the building.
+    Do you:
+
+
+    1: Jump out of the window to the street below
+
+    2: Shout for
+    help'
+  nextStates:
+  - {fileID: 11400000, guid: 0ad1dc77ea4e54c688dadff04992a9f1, type: 2}
+  - {fileID: 11400000, guid: 1b83ec06222124fa5ab95608c0d44bc0, type: 2}

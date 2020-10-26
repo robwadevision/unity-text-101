@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c8fda7606d449529b2b1bf039add33, type: 3}
+  m_Name: B2 2nd Floor
+  m_EditorClassIdentifier: 
+  storyText: 'You arrive on the second floor, but OH NO! You can see signs of flames
+    from the floor below, this stairwell may be ablaze further down! There is a corridor
+    at the end of the hall that offers another stairwell, or you can try your luck
+    with the stairwell in front of you. Maybe it''ll have an extinguisher!
+
+
+    1:
+    Head down via the stairs in front of you
+
+    2: Go towards the other stairwell'
+  nextStates:
+  - {fileID: 11400000, guid: aa34e7562879c4217a6a13e9e06bedda, type: 2}
+  - {fileID: 11400000, guid: e7010d365d56f447388a148dbfd3ca4e, type: 2}

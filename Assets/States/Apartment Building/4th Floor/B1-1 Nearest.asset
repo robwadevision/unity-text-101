@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c8fda7606d449529b2b1bf039add33, type: 3}
+  m_Name: B1-1 Nearest
+  m_EditorClassIdentifier: 
+  storyText: 'You bang on the door loudly and hear nothing from inside. You can either
+    move to the middle door, the further door or abandon the search.
+
+
+    1: Knock
+    on the middle door.
+
+    2: Knock on the furthest door
+
+    3: Abandon the search.'
+  nextStates:
+  - {fileID: 11400000, guid: 3143ba8bc72bd453da357f43970d1890, type: 2}
+  - {fileID: 11400000, guid: 7b1dee5ccfe284746bec3a11a8fd1862, type: 2}
+  - {fileID: 11400000, guid: 7bcbdf994fc7a447ba12c11c33356d29, type: 2}

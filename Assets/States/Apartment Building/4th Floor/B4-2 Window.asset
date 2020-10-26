@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c8fda7606d449529b2b1bf039add33, type: 3}
+  m_Name: B4-2 Window
+  m_EditorClassIdentifier: 
+  storyText: 'You move to the apartment window and open it. The boy stands behind
+    you as you peer out. You see that the crowd of people is much bigger than it
+    was a few minutes ago, and that one woman in particular is screaming in fear.
+    The boy''s mother?
+
+
+    1: Continue'
+  nextStates:
+  - {fileID: 11400000, guid: 7410684d2858e4666983bf0c9f91421b, type: 2}

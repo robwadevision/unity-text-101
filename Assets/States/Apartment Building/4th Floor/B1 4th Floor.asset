@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c8fda7606d449529b2b1bf039add33, type: 3}
+  m_Name: B1 4th Floor
+  m_EditorClassIdentifier: 
+  storyText: 'You arrive at the 4th floor, having decided to investigate the scream
+    you heard a moment ago. There are 3 apartments on this floor. You can knock at
+    any of the apartment doors, or abandon this hunt and head down to the 2nd floor.
+    Though you''ve come all this way...
+
+
+    1: Knock on the nearest door
+
+    2:
+    Knock on the middle door
+
+    3: Knock on the furthest door
+
+    4: Abandon the
+    search for the source of the scream'
+  nextStates:
+  - {fileID: 11400000, guid: 8cdfc96825a35426da983517ba26e688, type: 2}
+  - {fileID: 11400000, guid: 3143ba8bc72bd453da357f43970d1890, type: 2}
+  - {fileID: 11400000, guid: 7b1dee5ccfe284746bec3a11a8fd1862, type: 2}
+  - {fileID: 11400000, guid: 7bcbdf994fc7a447ba12c11c33356d29, type: 2}

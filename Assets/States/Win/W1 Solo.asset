@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c8fda7606d449529b2b1bf039add33, type: 3}
+  m_Name: W1 Solo
+  m_EditorClassIdentifier: 
+  storyText: 'You are able to get to the front door of the building using the stairs,
+    though at a couple of moments things were dicey you have prevailed!
+
+
+    Shame
+    about the person screaming. I''m sure they were fine though...
+
+
+    Press 1
+    to try again
+
+    Press 2 for Credits'
+  nextStates:
+  - {fileID: 11400000, guid: 48495e675017c4c4d8743384119c35f9, type: 2}
+  - {fileID: 11400000, guid: 70ff46bc6eea441d3946c2ce5a517041, type: 2}

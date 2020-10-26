@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c8fda7606d449529b2b1bf039add33, type: 3}
+  m_Name: G5 Choose
+  m_EditorClassIdentifier: 
+  storyText: '...Ok then... You stand stoically at the window, before turning and
+    facing the impending inferno that is spreading slowly towards you.
+
+
+    You
+    do not survive. Though it feels like you''re cool with it.
+
+
+    Press 1 to try
+    again.
+
+    Press 2 for Credits if this qualifies as a victory.'
+  nextStates:
+  - {fileID: 11400000, guid: 48495e675017c4c4d8743384119c35f9, type: 2}
+  - {fileID: 11400000, guid: 072e2d26aa05e4b3eaba6c55ab67d091, type: 2}

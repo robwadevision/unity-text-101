@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c8fda7606d449529b2b1bf039add33, type: 3}
+  m_Name: B4-1 Door
+  m_EditorClassIdentifier: 
+  storyText: 'You help the boy to his feet, and move back towards the apartment door.
+    As you breach the doorway into the hall, you hear a small bang and the ceiling
+    above the stairway nearest to you collapses. You cannot leave via this stairway.
+
+
+    1:
+    Move to the stairway at the other end of the hall
+
+    2: Go back into the apartment
+    and open the window'
+  nextStates:
+  - {fileID: 11400000, guid: e989260143a4c4aa2bbe0f4e40ccddc9, type: 2}
+  - {fileID: 11400000, guid: 502ea97a34c874a2f9f76027fdb28eff, type: 2}

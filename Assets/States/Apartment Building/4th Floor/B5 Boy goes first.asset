@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c8fda7606d449529b2b1bf039add33, type: 3}
+  m_Name: B5 Boy goes first
+  m_EditorClassIdentifier: 
+  storyText: 'You help the boy onto the window ledge and after some persuasion he
+    jumps into the blanket underneath the window. He is pulled free from the blanket
+    and reunited with the woman, who was indeed his mother. Now it''s up to you.
+    You hear the sound of the flames intensifying.
+
+
+    1: Jump from the window
+    into the fire blanket.
+
+    2: Accept death.'
+  nextStates:
+  - {fileID: 11400000, guid: 5dfff0caaeb22422fb3cfc5c0039961e, type: 2}
+  - {fileID: 11400000, guid: d2debdf59e3164d8488689b1572c7740, type: 2}

@@ -10,9 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48c8fda7606d449529b2b1bf039add33, type: 3}
-  m_Name: Door
+  m_Name: A1-1 Take Cover
   m_EditorClassIdentifier: 
-  storyText: You go up towards the door.
+  storyText: 'You duck into the corner of the room, and no sooner have you done so
+    than the door to the apartment is blown open, slamming into the wall.
+
+
+    The
+    doorway is now open.
+
+
+    1: Leave through the open doorway.'
   nextStates:
-  - {fileID: 11400000, guid: 882c0fd1413e642d7b67861fbba38769, type: 2}
-  - {fileID: 11400000, guid: 3ed0f89cd4c0b484e98033710a723bf4, type: 2}
+  - {fileID: 11400000, guid: 5b8a33f6568a7425a87fb5c322cbc9df, type: 2}

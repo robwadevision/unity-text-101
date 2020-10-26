@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c8fda7606d449529b2b1bf039add33, type: 3}
+  m_Name: B 3rd Floor Hallway
+  m_EditorClassIdentifier: 
+  storyText: 'You move out into the hallway outside your apartment. Though your door
+    is open, there''s precious little you can do about that right now. Your priority
+    should be to leave the building, but then you did hear that scream... The lift
+    is out of order, so you run to the stairway. From here you can go either up to
+    the 4th floor, or down to the 2nd floor. Both stairways appear to be unobstructed.
+
+
+    1:
+    Go up to the 4th floor.
+
+    2: Go down to the 2nd floor.'
+  nextStates:
+  - {fileID: 11400000, guid: 075de3aaaf119453498d311c2a252b4c, type: 2}
+  - {fileID: 11400000, guid: 7bcbdf994fc7a447ba12c11c33356d29, type: 2}

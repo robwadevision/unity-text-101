@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c8fda7606d449529b2b1bf039add33, type: 3}
+  m_Name: B4-2-1 Window 2
+  m_EditorClassIdentifier: 
+  storyText: 'No time to worry about that. You notice that the fire crew has a blanket
+    ready and waiting under the window. Now is the time to try jumping!
+
+
+    1:
+    Let the boy go first.
+
+    2: Go first yourself.'
+  nextStates:
+  - {fileID: 11400000, guid: a109994032a254be2a7d0b51441ecb6b, type: 2}
+  - {fileID: 11400000, guid: a78b5b379d7f449b6b0946b67d019ea0, type: 2}

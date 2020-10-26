@@ -273,7 +273,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Title Text
+  m_Text: Fire Escape - A Narrative Adventure
 --- !u!222 &745261394
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -316,8 +316,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.5000124, y: 13}
-  m_SizeDelta: {x: 933.6643, y: 291.0647}
+  m_AnchoredPosition: {x: -1.5, y: -51.7}
+  m_SizeDelta: {x: 904.4263, y: 385.74823}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &846634707
 MonoBehaviour:
@@ -392,7 +392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 846634707}
-  startingState: {fileID: 11400000, guid: 882c0fd1413e642d7b67861fbba38769, type: 2}
+  startingState: {fileID: 11400000, guid: 48495e675017c4c4d8743384119c35f9, type: 2}
 --- !u!4 &1470943726
 Transform:
   m_ObjectHideFlags: 0
@@ -442,7 +442,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.000030518, y: 211.75}
-  m_SizeDelta: {x: 942, y: 106.43939}
+  m_SizeDelta: {x: 942, y: 106.44409}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1643589776
 MonoBehaviour:
@@ -683,8 +683,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.023095518, y: 13}
-  m_SizeDelta: {x: 941.95386, y: 291.06458}
+  m_AnchoredPosition: {x: -0.000060081, y: -53.242}
+  m_SizeDelta: {x: 942, y: 423.51575}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1979755479
 MonoBehaviour:
